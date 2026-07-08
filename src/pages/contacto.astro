@@ -1,0 +1,18 @@
+---
+import Header from '../components/Header.astro';
+---
+<html lang="es">
+  <head><meta charset="UTF-8" /></head>
+  <body style="background-color: #0f172a; color: white; font-family: sans-serif;">
+    <Header />
+    <main style="max-width: 600px; margin: 50px auto; padding: 20px; background: #1e293b; border-radius: 15px;">
+      <h1 style="color: #38bdf8; text-align: center;">Contacto</h1>
+      <form style="display: flex; flex-direction: column; gap: 15px;">
+        <input type="text" placeholder="Tu nombre" style="padding: 10px; border-radius: 5px; border: none;">
+        <input type="email" placeholder="Tu correo" style="padding: 10px; border-radius: 5px; border: none;">
+        <textarea placeholder="¿En qué puedo ayudarte?" style="padding: 10px; border-radius: 5px; border: none; height: 100px;"></textarea>
+        <button style="background: #38bdf8; color: #0f172a; padding: 10px; border: none; border-radius: 5px; font-weight: bold; cursor: pointer;">Enviar Mensaje</button>
+      </form>
+    </main>
+  </body>
+</html>
